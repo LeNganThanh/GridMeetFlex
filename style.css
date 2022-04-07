@@ -7,6 +7,9 @@
   --section-color: rgb(233, 3, 233);
   --text-color: rgb(7, 78, 119);
 }
+*{
+    box-sizing: border-box;
+}
 body {
   font-size: 1.8rem;
 }
@@ -50,7 +53,7 @@ header div {
 header h2 {
   margin: 0;
   grid-column: 1 / span 3;
-  padding: 1rem;
+  padding: 1.1rem;
 }
 .navi {
   background-color: var(--nav-color);
